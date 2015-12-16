@@ -1,30 +1,52 @@
-#Steel-Ant, Input/Output, P5.js
+#Steel-Ant, Input/Output, Data Vis
 
 -
 
-###from letter to picture
+###research matters
 
 ---
 
 
 ######About
-In this project I am trying to translate the different layout types of letters to artificial coded  pictures.
+In this project I am showing how many different research projects have been executed on the ISS.
  
  
-######algo
-<<<<<<< HEAD
-<img src="https://raw.githubusercontent.com/logetcrea/molecular-networks-p5-algorithm/master/documentation/Algorithm-01-result-1.jpg" width="19%" style="display: inline-block;" />
-=======
-<img src="https://raw.githubusercontent.com/logetcrea/from-letter-to-picture/gh-pages/screenshots/51.png" width="19%" style="display: inline-block;" />
->>>>>>> master
+######first idea
+At first I had the idea to make kind of an Interactive-Browser-App.  
+I wanted to integrate some different by the NASA provided information. The idea was to give the feeling of nearness and real communication. I decided to give a menu for choosing to get information about the astronauts, live broadcast from the ISS and the newest tweet. Moreover I wanted to show the current research topics, their universities and the current position of the ISS...    
+
+definetely too much...
+
+<img src="screens/default.PNG" width="100%" style="display: inline-block;" />
+
+<img src="screens/menu.PNG" width="100%" style="display: inline-block;" />
+
+<img src="screens/live.PNG" width="100%" style="display: inline-block;" />
+
+<img src="screens/research.PNG" width="100%" style="display: inline-block;" />
+
 -
 
-######Demo
-The three rectangles symbolize the areas of the date, green, addressee, blue,  and the sender, violet.  
-The startpositions of these rectangles depend on the probability for being there in normal kinds of letter layouts.  
-The different movements symbolize the many different kinds of writing a letter.  
+######second plan
+I just played a little with the data.  
 
-[Algorithm](http://logetcrea.github.io/from-letter-to-picture/index.html)
+<img src="screens/iss.PNG" width="100%" style="display: inline-block;" />
+  
+I decided to take only the research data and visualize the differences in topic, time and their different investigators.  
+
+<img src="screens/hue-topics.PNG" width="100%" style="display: inline-block;" />
+
+But I had a lot trouble getting the data...  
+g.e. with [import.io](https://import.io/)  
+ 
+<img src="screens/io-fail.PNG" width="100%" style="display: inline-block;" />
+
+So I changed the strategy and tried [HTTrack](http://www.httrack.com/html/abuse.html), a gorgeous tool for copying websites. To get the desired data, I had to filter the html with another genius tool, called [pup](https://github.com/EricChiang/pup). I precticed [Regex](http://regexr.com/) in my Text-Editor for deleting some in my case useless rubish, but all that did not work well, because of unfortunately, improbable circumstances. Pup is a nice tool, but you need tags in your html. Unfortunately exactly my desired information wasn't in a tag...  
+
+-
+
+######my data visualization
+
 
 -
 
