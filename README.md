@@ -47,7 +47,7 @@ So I changed the strategy and tried [HTTrack](http://www.httrack.com/html/abuse.
 -
 
 ######my data visualization
-[research-matters](http://logetcrea.github.io/research-matters/educational.html)
+[research-matters](http://logetcrea.github.io/research-matters/index.html)
 
 -
 
