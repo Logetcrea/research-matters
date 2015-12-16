@@ -15,7 +15,7 @@ In this project I am showing how many different research projects have been exec
 At first I had the idea to make kind of an Interactive-Browser-App.  
 I wanted to integrate some different by the NASA provided information. The idea was to give the feeling of nearness and real communication. I decided to give a menu for choosing to get information about the astronauts, live broadcast from the ISS and the newest tweet. Moreover I wanted to show the current research topics, their universities and the current position of the ISS...    
 
-definetely too much...
+
 
 <img src="screens/default.PNG" width="100%" style="display: inline-block;" />
 
@@ -23,7 +23,9 @@ definetely too much...
 
 <img src="screens/live.PNG" width="100%" style="display: inline-block;" />
 
-<img src="screens/research.PNG" width="100%" style="display: inline-block;" />
+<img src="screens/research.PNG" width="100%" style="display: inline-block;" />  
+
+definetely too much...
 
 -
 
