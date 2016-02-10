@@ -42,7 +42,7 @@ g.e. with [import.io](https://import.io/)
  
 <img src="https://raw.githubusercontent.com/logetcrea/research-matters/master/screens/io-fail.png" width="100%" style="display: inline-block;" />
 
-So I changed the strategy and tried [HTTrack](http://www.httrack.com/html/abuse.html), a gorgeous tool for copying websites. To get the desired data, I had to filter the html with another genius tool, called [pup](https://github.com/EricChiang/pup). I practiced [Regex](http://regexr.com/) in my Text-Editor for deleting some in my case useless rubish, but all that did not work well, because of unfortunately, improbable circumstances. Pup is a nice tool, but you need tags in your html. Unfortunately exactly my desired information wasn't in a tag...  
+So I changed the strategy and tried [HTTrack](http://www.httrack.com/html/abuse.html), a gorgeous tool for copying websites. To get the desired data, I had to filter the html with another genius tool, called [pup](https://github.com/EricChiang/pup). Pup is a nice tool, but you need tags in your html. Unfortunately exactly my desired information wasn't in a tag... I practiced [Regex](http://regexr.com/) in my Text-Editor for deleting some in my case useless rubish, but all that did not work well, because of unfortunately, improbable circumstances. Each .html file has other components, that there is no way for me to filter all these .html files just with shellscripts or Regex...  
 
 -
 
