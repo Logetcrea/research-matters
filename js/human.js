@@ -42,7 +42,7 @@ function draw() {
   for (var i = 1; i < 185; i++) {
     fill(40,65,70);
     noStroke();
-    ellipse(random(0,w),random(0,h),2,2);
+    ellipse(random(0,w),random(0,h),3,3);
     noLoop();
 }
 
