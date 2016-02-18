@@ -42,7 +42,7 @@ function draw() {
   for (var a = 1; a < 261; a++) {
     fill(150,50,50);
     noStroke();
-    ellipse(random(0,w),random(0,h),2,2);
+    ellipse(random(0,w),random(0,h),3,3);
     noLoop();
   }
 
@@ -50,7 +50,7 @@ function draw() {
   for (var b = 1; b < 34; b++) {
     fill(360,10,50);
     noStroke();
-    ellipse(random(0,w),random(0,h),2,2);
+    ellipse(random(0,w),random(0,h),3,3);
     noLoop();
   }
 
@@ -58,7 +58,7 @@ function draw() {
   for (var c = 1; c < 172; c++) {
     fill(320,30,60);
     noStroke();
-    ellipse(random(0,w),random(0,h),2,2);
+    ellipse(random(0,w),random(0,h),3,3);
     noLoop();
   }
 
@@ -66,7 +66,7 @@ function draw() {
   for (var d = 1; d < 185; d++) {
     fill(40,65,70);
     noStroke();
-    ellipse(random(0,w),random(0,h),2,2);
+    ellipse(random(0,w),random(0,h),3,3);
     noLoop();
   }
 
@@ -74,7 +74,7 @@ function draw() {
   for (var e = 1; e < 117; e++) {
     fill(220,65,45);
     noStroke();
-    ellipse(random(0,w),random(0,h),2,2);
+    ellipse(random(0,w),random(0,h),3,3);
     noLoop();
   }
 
@@ -82,7 +82,7 @@ function draw() {
   for (var f = 1; f < 209; f++) {
     fill(180,65,40);
     noStroke();
-    ellipse(random(0,w),random(0,h),2,2);
+    ellipse(random(0,w),random(0,h),3,3);
     noLoop();
   }
 

@@ -5,8 +5,95 @@ body{
 }
 
 a{
-  color: #154161;
   text-decoration: none;
+}
+
+/*selecting all*/
+.deselected-all{
+  color: #909090;
+}
+.deselected-all:hover{
+  color: #FFF;
+}
+.all{
+  text-decoration: overline;
+  color: #FFF;
+}
+
+/*selecting biology*/
+.deselected-biology{
+  color: #909090;
+}
+.deselected-biology:hover{
+  color: #339966;
+}
+.biology{
+  text-decoration: overline;
+  color: #339966;
+}
+
+/*selecting earth*/
+.deselected-earth{
+  color: #909090;
+}
+.deselected-earth:hover{
+  color: #996666;
+}
+.earth{
+  text-decoration: overline;
+  color: #996666;
+}
+
+/*selecting educational*/
+.deselected-educational{
+  color: #909090;
+}
+.deselected-educational:hover{
+  color: #996699;
+}
+.educational{
+  text-decoration: overline;
+  color: #996699;
+}
+
+/*selecting human*/
+.deselected-human{
+  color: #909090;
+}
+.deselected-human:hover{
+  color: #CC9933;
+}
+.human{
+  text-decoration: overline;
+  color: #CC9933;
+}
+
+/*selecting physical*/
+.deselected-physical{
+  color: #909090;
+}
+.deselected-physical:hover{
+  color: #3C5AFE;
+}
+.physical{
+  text-decoration: overline;
+  color: #3C5AFE;
+}
+
+/*selecting technical*/
+.deselected-technical{
+  color: #909090;
+}
+.deselected-technical:hover{
+  color: #336666;
+}
+.technical{
+  text-decoration: overline;
+  color: #336666;
+}
+
+.all-overview{
+  text-align: center;
 }
 
   h1{
@@ -28,13 +115,13 @@ a{
     color:#909090;
     font-weight: lighter;
     position: absolute;
-    left: 50%;
+    left: 51%;
     top: 55%;
     transform: translate(-50%, -50%);
     width: 50%;
     height: 50%;
     padding: 20px;
-    text-align: center;
+    text-align: left;
     z-index: 300;
   }
 
