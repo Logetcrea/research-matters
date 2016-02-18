@@ -1,5 +1,5 @@
 var x,y,x1,y1;
-var w,h;
+var w,h,x,y;
 
 var data;
 
@@ -8,37 +8,29 @@ data = loadJSON("research.json");
 }
 
 function setup() {
-  var canvas = createCanvas(windowWidth, windowHeight);
+  var canvas = createCanvas(1280, 640);
+  canvas.parent('script');
 
   //allinall-research.json
   var bio = data.Biology_and_Biotechnology;
-  var earth = data.Earth_and_Space_Science;
-  var educational = data.Educational_Activities_and_Outreach;
-  var human = data.Human_Research;
-  var physical = data.Physical_Science;
-  var technical = data.Technology_Development_and_Demonstration;
+  var bioLat = bio.latitude;
+  var bioLon = bio.longitude;
 
   w = width;
   h = height;
   colorMode(HSL, 360, 100, 100);
 
+
   for (i=0; i<bio.length; i++){
+    x = map(bioLon[i], -180, 180, 0, width);
+    y = map(bioLat[i], 90, -90, 0, height);
     fill(150,50,50);
     noStroke();
-    ellipse(random(0,w),random(0,h),3,3);
+    ellipse(x,y,3,3);
   }
 }
-
+//§
 
 function draw() {
-  //
-  // //261 biologie researches
-  // for (var i = 1; i < 261; i++) {
-  //   fill(150,50,50);
-  //   noStroke();
-  //   ellipse(random(0,w),random(0,h),3,3);
-  //   noLoop();
-// }
-
 
 }
