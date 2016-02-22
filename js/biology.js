@@ -1,35 +1,34 @@
-var x,y,x1,y1;
-var w,h,x,y;
+var x = 0;
+var y = 0;
 
-var data;
+
+var data = null;
 
 function preload(){
-data = loadJSON("research.json");
+data = loadJSON("js/research.json");
 }
 
 function setup() {
-  var canvas = createCanvas(1280, 640);
+  var canvas = createCanvas(windowWidth,windowWidth/2);
   canvas.parent('script');
 
-  //allinall-research.json
-  var bio = data.Biology_and_Biotechnology;
-  var bioLat = bio.latitude;
-  var bioLon = bio.longitude;
-
-  w = width;
-  h = height;
   colorMode(HSL, 360, 100, 100);
 
+  for (var i=0; i<200; i++){
+    var bioData = data.Biology_and_Biotechnology;
+    var bio = bioData[i];
+    var bioLat = bio[i].latitude;
+    var bioLon = bio[i].longitude;
 
-  for (i=0; i<bio.length; i++){
-    x = map(bioLon[i], -180, 180, 0, width);
-    y = map(bioLat[i], 90, -90, 0, height);
+    x = map(bioLon, -180, 180, 0, width);
+    y = map(bioLat, 90, -90, 0, height);
+
     fill(150,50,50);
     noStroke();
     ellipse(x,y,3,3);
   }
 }
-//§§
+//§§§§§§§§
 
 function draw() {
 
