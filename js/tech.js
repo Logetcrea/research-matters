@@ -1,50 +1,38 @@
+var x = 0;
+var y = 0;
+var mymap;
 
-var x;
-var y;
-var x1;
-var y1;
-var w,h;
+var data;
 
-var counter = 0;
-
-
-
-
-
-var bg;
-
-function setup() {
-  var canvas = createCanvas(windowWidth, windowHeight);
-  //bg = loadImage("images/space-earth.png");
-
-  w = width;
-  h = height;
-  colorMode(HSL, 360, 100, 100);
-
+function preload(){
+data = loadJSON("json/research.json");
 }
 
+function setup() {
+  var canvas = createCanvas(windowWidth,windowWidth/2);
+  canvas.parent('script');
+
+  colorMode(HSL, 360, 100, 100);
+
+  mymap = loadImage("images/earth-grey.jpg");
+}
 
 
 function draw() {
+  image(mymap, 0, 0, width, height);
 
-  //image(bg, 0, 0, w, h);
+  var technical = data.Technology_Development_and_Demonstration;
 
+  for (var i=0; i<technical.length; i++){
 
-  /*if(windowWidth > windowHeight*2){
-    w = h*2;
-  }
+    var technicalLat = technical[i].latitude;
+    var technicalLon = technical[i].longitude;
 
-  if(windowHeight > windowWidth/2){
-    h = w/2;
-  }*/
+    x = map(technicalLon, -180, 180, 0, width);
+    y = map(technicalLat, 90, -90, 0, height);
 
-  //261 tech researches
-  for (var i = 1; i < 209; i++) {
     fill(180,65,40);
     noStroke();
-    ellipse(random(0,w),random(0,h),3,3);
-    noLoop();
-}
-
-
+    ellipse(x,y,3,3);
+  }
 }

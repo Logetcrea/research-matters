@@ -1,22 +1,29 @@
 var x = 0;
 var y = 0;
+var mymap;
 
-
-var data = null;
+var data;
 
 function preload(){
-data = loadJSON("js/research.json");
+  data = loadJSON("json/research.json");
 }
 
 function setup() {
   var canvas = createCanvas(windowWidth,windowWidth/2);
   canvas.parent('script');
 
-  colorMode(HSL, 360, 100, 100);
+  mymap = loadImage("images/earth-grey.jpg");
 
-  for (var i=0; i<200; i++){
-    var bioData = data.Biology_and_Biotechnology;
-    var bio = bioData[i];
+  colorMode(HSL, 360, 100, 100);
+}
+
+function draw() {
+  image(mymap, 0, 0, width, height);
+
+  var bio = data.Biology_and_Biotechnology;
+
+  for (var i=0; i<bio.length; i++){
+
     var bioLat = bio[i].latitude;
     var bioLon = bio[i].longitude;
 
@@ -27,9 +34,4 @@ function setup() {
     noStroke();
     ellipse(x,y,3,3);
   }
-}
-//§§§§§§§§
-
-function draw() {
-
 }
