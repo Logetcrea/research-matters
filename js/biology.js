@@ -18,7 +18,7 @@ function setup() {
 }
 
 function draw() {
-  image(mymap, 0, 0, width, height);
+  image(mymap, 0, 0, width+5, height+10);
 
   var bio = data.Biology_and_Biotechnology;
 
