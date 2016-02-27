@@ -75,7 +75,7 @@ function draw() {
     x = map(earthLon, -180, 180, 0, width);
     y = map(earthLat, 90, -90, 0, height);
 
-    fill(360,10,50);
+    fill(36,70,44);
     noStroke();
     ellipse(x,y,3,3);
   }
@@ -105,7 +105,7 @@ function draw() {
     x = map(humanLon, -180, 180, 0, width);
     y = map(humanLat, 90, -90, 0, height);
 
-    fill(40,65,70);
+    fill(55,84,80);
     noStroke();
     ellipse(x,y,3,3);
   }
