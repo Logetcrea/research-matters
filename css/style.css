@@ -20,7 +20,7 @@ a{
   color: #FFF;
 }
 .all{
-  text-decoration: overline;
+  text-decoration: none;;
   color: #FFF;
 }
 
@@ -32,7 +32,7 @@ a{
   color: #339966;
 }
 .biology{
-  text-decoration: overline;
+  text-decoration: none;;
   color: #339966;
 }
 
@@ -44,7 +44,7 @@ a{
   color: #CC9933;
 }
 .earth{
-  text-decoration: overline;
+  text-decoration: none;;
   color: #CC9933;
 }
 
@@ -56,7 +56,7 @@ a{
   color: #996699;
 }
 .educational{
-  text-decoration: overline;
+  text-decoration: none;;
   color: #996699;
 }
 
@@ -68,7 +68,7 @@ a{
   color: #FFFF99;
 }
 .human{
-  text-decoration: overline;
+  text-decoration: none;;
   color: #FFFF99;
 }
 
@@ -80,7 +80,7 @@ a{
   color: #3C5AFE;
 }
 .physical{
-  text-decoration: overline;
+  text-decoration: none;;
   color: #3C5AFE;
 }
 
@@ -92,7 +92,7 @@ a{
   color: #33CCCC;
 }
 .technical{
-  text-decoration: overline;
+  text-decoration: none;;
   color: #33CCCC;
 }
 
