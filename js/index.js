@@ -13,7 +13,7 @@ function setup() {
 
   colorMode(HSL, 360, 100, 100);
 
-  mymap = loadImage("images/earth-grey.jpg");
+  mymap = loadImage("images/earth.png");
 }
 
 

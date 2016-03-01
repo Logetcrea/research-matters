@@ -12,7 +12,7 @@ function setup() {
   var canvas = createCanvas(windowWidth,windowWidth/2);
   canvas.parent('script');
 
-  mymap = loadImage("images/earth-grey.jpg");
+  mymap = loadImage("images/earth.png");
 
   colorMode(HSL, 360, 100, 100);
 }
