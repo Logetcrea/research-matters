@@ -53,11 +53,11 @@ In the end it worked.
 [This](http://logetcrea.github.io/research-matters/index.html) is my visualization 'til now.
 But I still want to refine it. I need a hover for each project, a link...
 
-<img src="screenShots/researchMattersAll.png" width="100%" style="display: inline-block;" />
+<img src="screens/researchMattersAll.png" width="100%" style="display: inline-block;" />
 
-<img src="screenShots/researchMattersBio.png" width="100%" style="display: inline-block;" />
+<img src="screens/researchMattersBio.png" width="100%" style="display: inline-block;" />
 
-<img src="screenShots/researchMattersBioText.png" width="100%" style="display: inline-block;" />
+<img src="screens/researchMattersBioText.png" width="100%" style="display: inline-block;" />
 
 -
 
